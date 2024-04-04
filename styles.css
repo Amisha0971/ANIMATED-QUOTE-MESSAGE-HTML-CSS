@@ -4,21 +4,22 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f4f4f4;
+    background-color: burlywood;
   }
   
   .quote-container {
     position: relative;
-    padding: 20px;
-    max-width: 400px;
+    padding: 40px; /* Increased padding */
+    max-width: 600px; /* Increased max-width */
     background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px; /* Increased border-radius */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Increased box-shadow */
   }
   
-  #quote, #author {
-    font-size: 18px;
-    margin-bottom: 10px;
+  #quote,
+  #author {
+    font-size: 24px; /* Increased font size */
+    margin-bottom: 20px; /* Increased margin */
     text-align: center;
   }
   
