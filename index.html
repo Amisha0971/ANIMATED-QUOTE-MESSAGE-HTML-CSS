@@ -3,53 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Animated Quote Message</title>
-<style>
-  body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f4f4f4;
-  }
-
-  .quote-container {
-    position: relative;
-    padding: 20px;
-    max-width: 400px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    animation: slide-in 0.5s ease-out forwards;
-  }
-
-  .quote {
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
-
-  .author {
-    font-size: 14px;
-    text-align: right;
-  }
-
-  @keyframes slide-in {
-    from {
-      transform: translateY(-100%);
-      opacity: 0;
-    }
-    to {
-      transform: translateY(0);
-      opacity: 1;
-    }
-  }
-</style>
+<title>Quote Slideshow</title>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <div class="quote-container">
-  <p class="quote">"The only way to do great work is to love what you do."</p>
-  <p class="author">- Steve Jobs</p>
+  <div id="quote"></div>
+  <div id="author"></div>
 </div>
+<script src="script.js"></script>
 </body>
 </html>
