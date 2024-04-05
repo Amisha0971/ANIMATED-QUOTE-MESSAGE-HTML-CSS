@@ -6,3 +6,4 @@
 ![Screenshot 2024-04-04 202823](https://github.com/Amisha0971/ANIMATED-QUOTE-MESSAGE-HTML-CSS/assets/136344215/29b3e0cc-de27-4da9-a605-1d083d1fcecc)
 
 ![Screenshot 2024-04-04 202748](https://github.com/Amisha0971/ANIMATED-QUOTE-MESSAGE-HTML-CSS/assets/136344215/7a3273b4-6571-4090-be73-6b116227ad43)
+
